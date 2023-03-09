@@ -1,0 +1,44 @@
+<main>
+
+    <nav>
+    <header>
+    <h1>Departments</h1>
+    <h2>Dashboard / <small>Departments</small> </h2>
+    
+</header>
+<aside>
+    <button class="btn-3" mat-stroked-button color="primary"><fa-icon class="download" [icon]="download"></fa-icon>Download</button>
+    <button mat-flat-button color="primary"><fa-icon [icon]="add"></fa-icon></button>
+    <!-- <fa-icon [icon]="add"></fa-icon> -->
+    <!-- <fa-icon class="download" [icon]="download"></fa-icon> -->
+</aside>
+</nav>
+    <section>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>HOD</th>
+            <th>Started Year</th>
+            <th>No Of Students</th>
+            <th [colSpan]="2">Action</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><button class="btn-1" style="height:45px;width:50px" mat-fab color="primary" aria-label="Example icon button with a edit icon">
+                <!-- <mat-icon>edit</mat-icon> -->
+                <mat-icon>edit</mat-icon>
+              </button></td>
+              <td><button class="btn-2" style="height:45px;width:50px" mat-fab color="warn" aria-label="Example icon button with a delete icon">
+                <mat-icon>delete</mat-icon>
+              </button></td>
+        </tr>
+    </thead>
+  </table>
+</section>
+</main>
