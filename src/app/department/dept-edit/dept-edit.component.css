@@ -1,0 +1,52 @@
+
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    height: 75vh;
+    background-color: white;
+}
+header{
+    flex-grow: 1;
+    background-color: white
+    ;
+}
+section{
+    flex-grow: 3;
+    background-color:whitesmoke;
+}
+h3{
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+h2{
+    font-size: 20px;
+    margin-left: 15px;
+    position: relative;
+    bottom: 15px;
+}
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 30px;
+    margin-left: 15px;
+    letter-spacing: 0.1em;
+}
+section{
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid azure;
+    box-shadow: 0px 5px 7px rgb(110, 111, 111);
+}
+.row{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+button{
+    position: relative;
+    left: 12px;
+    top: -10px;
+}

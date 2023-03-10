@@ -1,4 +1,5 @@
 import { Component, EventEmitter, Output } from '@angular/core';
+import { faDownload, faAdd ,faSearch} from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-header',
@@ -8,6 +9,7 @@ import { Component, EventEmitter, Output } from '@angular/core';
 export class HeaderComponent {
   @Output() sideNavToggled= new EventEmitter<boolean>();
 menuStatus:boolean=false;
+search=faSearch;
 
 
 SideNavToggled(){

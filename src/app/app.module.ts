@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
+import { AccountsModule } from './accounts/accounts.module';
 // import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
@@ -23,7 +24,9 @@ import { MaterialModule } from './material/material.module';
     DepartmentModule,
     FontAwesomeModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    AccountsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
