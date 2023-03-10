@@ -14,19 +14,11 @@ import { AccountsModule } from './accounts/accounts.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    SideNavComponent,
-    HeaderComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    DepartmentModule,
-    FontAwesomeModule,
-    BrowserAnimationsModule,
-    MaterialModule,
-    AccountsModule
-
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

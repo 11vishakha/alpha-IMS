@@ -28,7 +28,10 @@
               "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/popper/index.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -98,6 +101,6 @@
     }
   },
   "cli": {
-    "analytics": "52140493-3620-4713-9c45-ff21eacf2e62"
+    "analytics": "8967c546-ee2b-479e-945f-a8db7a533224"
   }
 }
