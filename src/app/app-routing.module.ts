@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { LibraryComponent } from './library/library.component';
+import { TableComponent } from './table/table.component';
 
 const routes: Routes = [
   {
@@ -12,6 +14,12 @@ const routes: Routes = [
     loadChildren: () =>
       import('./subjects/subjects.module').then((m) => m.SubjectsModule),
   },
+  {
+    path:'table', component:TableComponent
+  },
+  {
+    path:'library', component:LibraryComponent
+  }
 ];
 
 @NgModule({

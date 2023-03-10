@@ -6,10 +6,14 @@ import { AppComponent } from './app.component';
 import { DashboardModule } from './dashboard/dashboard.module';
 import { SubjectsRoutingModule } from './subjects/subjects-routing.module';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { TableComponent } from './table/table.component';
+import { LibraryComponent } from './library/library.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    TableComponent,
+    LibraryComponent,
   ],
   imports: [
     BrowserModule,
