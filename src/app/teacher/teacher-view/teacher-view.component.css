@@ -1,0 +1,16 @@
+.blue-box {
+    background-color: #53c653;
+    padding: 40px 30px;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+}
+.follow-sec h3 {
+    font-size: 35px;
+    font-weight: 600;
+}
+.follow-sec p {
+    font-size: 18px;
+    margin: 0px;
+}
