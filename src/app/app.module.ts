@@ -24,15 +24,10 @@ import { TeacherModule } from './teacher/teacher.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule,
-    DepartmentModule,
+    TeacherModule,
     FontAwesomeModule,
-    BrowserAnimationsModule,
-    MaterialModule,
-    AccountsModule,
-    RouterModule,
-    TeacherModule
-    
+    HolidayModule
+  
   ],
   providers: [],
   bootstrap: [AppComponent]
