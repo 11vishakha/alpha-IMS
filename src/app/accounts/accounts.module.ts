@@ -11,6 +11,7 @@ import { AddExpensesComponent } from './add-expenses/add-expenses.component';
 import { AddSalaryComponent } from './add-salary/add-salary.component';
 import { MaterialModule } from '../material/material.module';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -27,7 +28,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   imports: [
     CommonModule,
     AccountsRoutingModule,
-    MaterialModule,FontAwesomeModule
+    MaterialModule,FontAwesomeModule,RouterModule
   ]
 })
 export class AccountsModule { }

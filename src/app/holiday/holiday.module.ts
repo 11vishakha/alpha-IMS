@@ -5,6 +5,7 @@ import { HolidayComponent } from './holiday.component';
 import { AddHolidayComponent } from './add-holiday/add-holiday.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HomeComponent } from './home/home.component';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { HomeComponent } from './home/home.component';
   ],
   imports: [
     CommonModule,
-    HolidayRoutingModule
+    HolidayRoutingModule,
+    RouterModule
   ]
 })
 export class HolidayModule { }
