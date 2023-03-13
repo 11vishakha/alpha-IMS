@@ -12,8 +12,13 @@ import { LibraryComponent } from './library/library.component';
 @NgModule({
   declarations: [
     AppComponent,
+<<<<<<< HEAD
     TableComponent,
     LibraryComponent,
+=======
+  
+  
+>>>>>>> 9fc305344a438270247ca7a1d27e6f633ad7d09f
   ],
   imports: [
     BrowserModule,
