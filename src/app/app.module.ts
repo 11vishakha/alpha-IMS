@@ -3,16 +3,31 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TeacherModule } from './teacher/teacher.module';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { HolidayModule } from './holiday/holiday.module';
+
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
+    HolidayComponent,
+    AddHolidayComponent,
+    FeesComponent,
+    AddFeesComponent,
+    EditFeesComponent,
   
   
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    TeacherModule,
+    FontAwesomeModule,
+    HolidayModule
+  
   ],
   providers: [],
   bootstrap: [AppComponent]
