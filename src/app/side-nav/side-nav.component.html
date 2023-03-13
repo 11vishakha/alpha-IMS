@@ -62,7 +62,7 @@
                     data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">
                         <a href="#">Admin Dashbooard</a><br>
-                        <a href="#">Teacher Dashboard</a><br>
+                        <a href="#">Teacher Dashboard</a><br>      
                         <a href="#">Student Dashboard</a>
                     </div>
                 </div>
@@ -78,10 +78,10 @@
                 <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
                     data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">
-                        <a href="#">Student List </a><br>
-                        <a href="#">Student View</a><br>
-                        <a href="#">Student Add</a><br>
-                        <a href="#">Student Edit</a>
+                        <a [routerLink]="['/student-list']">Student List </a><br>
+                        <a [routerLink]="['/student-view']">Student View</a><br>
+                        <a [routerLink]="['/student-add']">Student Add</a><br>
+                        <a [routerLink]="['/student-edit']">Student Edit</a>
                     </div>
                 </div>
             </div>

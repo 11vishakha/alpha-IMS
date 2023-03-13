@@ -13,7 +13,8 @@ const routes: Routes = [{ path: '',
 {path:'teacher-add',component:TeacherAddComponent},
 {path:'teacher-view',component:TeacherViewComponent},
 {path:'teacher-edit',component:TeacherEditComponent},
-{path:"**",component:PageNotFoundComponent}]},
+// {path:"**",component:PageNotFoundComponent}
+]},
 ];
 
 @NgModule({

@@ -11,8 +11,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
 import { AccountsModule } from './accounts/accounts.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { RouterModule } from '@angular/router';
+import { Router, RouterModule } from '@angular/router';
 import { TeacherModule } from './teacher/teacher.module';
+import { StudentModule } from './student/student.module';
 // import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
@@ -26,7 +27,13 @@ import { TeacherModule } from './teacher/teacher.module';
     AppRoutingModule,
     TeacherModule,
     FontAwesomeModule,
-    HolidayModule
+    StudentModule,
+    ReactiveFormsModule,
+    MaterialModule,
+    AccountsModule,
+    RouterModule,
+    FormsModule,
+    DepartmentModule
   
   ],
   providers: [],
