@@ -5,11 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TeacherModule } from './teacher/teacher.module';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { HolidayComponent } from './holiday/holiday.component';
-import { AddHolidayComponent } from './add-holiday/add-holiday.component';
-import { FeesComponent } from './fees/fees.component';
-import { AddFeesComponent } from './add-fees/add-fees.component';
-import { EditFeesComponent } from './edit-fees/edit-fees.component';
+import { HolidayModule } from './holiday/holiday.module';
 
 
 
@@ -30,7 +26,7 @@ import { EditFeesComponent } from './edit-fees/edit-fees.component';
     AppRoutingModule,
     TeacherModule,
     FontAwesomeModule,
-  
+    HolidayModule
   
   ],
   providers: [],

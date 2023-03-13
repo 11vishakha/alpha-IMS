@@ -28,10 +28,7 @@
               "src/styles.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": [
-              "node_modules/popper/index.js",
-              "node_modules/bootstrap/dist/js/bootstrap.min.js"
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -100,6 +97,9 @@
     }
   },
   "cli": {
+
+
     "analytics": "a5d959e1-df53-416d-b9a9-2a40a908d652"
+
   }
 }
