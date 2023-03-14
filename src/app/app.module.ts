@@ -16,6 +16,7 @@ import { TeacherModule } from './teacher/teacher.module';
 import { StudentModule } from './student/student.module';
 import { HolidayModule } from './holiday/holiday.module';
 import { FeesComponent } from './fees/fees.component';
+import { HolidayComponent } from './holiday/holiday.component';
 // import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
@@ -36,7 +37,8 @@ import { FeesComponent } from './fees/fees.component';
     AccountsModule,
     RouterModule,
     FormsModule,
-    DepartmentModule
+    DepartmentModule,
+    HolidayModule
   
   ],
   providers: [],
