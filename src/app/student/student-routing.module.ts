@@ -23,9 +23,9 @@ const routes: Routes = [{
     {
         path:'student-list', component:StudentListComponent
     },
-    {
-        path:'**' ,component:PageNotFoundComponent
-    }
+    // {
+    //     path:'**' ,component:PageNotFoundComponent
+    // }
 
     ]
 }

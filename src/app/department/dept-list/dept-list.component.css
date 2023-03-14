@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .pen{
     background-color: green;
 }
@@ -8,3 +9,80 @@
 .bg-danger-light{
     background-color: orange;
 }
+=======
+th{
+    text-align: center;
+}
+td{
+    text-align: center;
+}
+.btn-1{
+    position: relative;
+    left: 50px;
+}
+.btn-2{
+    position: relative;
+    right: 50px;
+}
+.btn-3{
+    margin-right: 5px;
+}
+section{
+    height: 110vh;
+    width: 85vw;
+    margin: auto;
+    border: 1px solid azure;
+    background-color: whitesmoke;
+    box-shadow: 0px 5px 7px rgb(110, 111, 111);
+}
+main{
+    height: 150vh;
+    width: 85vw;
+    
+}
+small{
+    color:rgb(81, 80, 80);
+}
+h2{
+    font-size: 20px;
+    margin-left: 10px;
+    position: relative;
+    bottom: 15px;
+}
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 30px;
+    margin-left: 10px;
+    letter-spacing: 0.1em;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 15px; */
+}
+header{
+    flex-grow: 2;
+}
+aside{
+    flex-grow: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+
+}
+aside button{
+    position: relative;
+    left: 0px;
+    top: 55px;
+    /* top: 50px; */
+}
+
+.download{
+    padding-right: 5px;
+}
+/* aside button{
+    position: relative;
+    right: 130px;
+} */
+>>>>>>> 67516e888c477d3c5bdbde294d21f91e68bf1e8c

@@ -3,9 +3,11 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TeacherModule } from './teacher/teacher.module';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { DepartmentModule } from './department/department.module';
+import { SideNavComponent } from './side-nav/side-nav.component';
+import { HeaderComponent } from './header/header.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
 import { StudentModule } from './student/student.module';
 import { DepartmentComponent } from './department/department.component';
 import { AddFeesComponent } from './add-fees/add-fees.component';

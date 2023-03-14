@@ -6,7 +6,6 @@ import { DepartmentComponent } from './department.component';
 import { DeptAddComponent } from './dept-add/dept-add.component';
 import { DeptEditComponent } from './dept-edit/dept-edit.component';
 import { DeptListComponent } from './dept-list/dept-list.component';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
 @NgModule({
@@ -18,8 +17,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   ],
   imports: [
     CommonModule,
-    DepartmentRoutingModule,
-    FontAwesomeModule
+    DepartmentRoutingModule
   ]
 })
 export class DepartmentModule { }

@@ -1,0 +1,164 @@
+<div class="side-nav-content">
+    <ul class="nav-list" [ngClass]="{'nav-list-open':sideNavStatus}">
+
+        <!-- 
+        <li class="nav-list-item">
+            <i class="fa-sharp fa-solid fa-user-graduate"></i>
+            <span>
+                <a href="#">Dashboard</a>
+            </span>
+        </li>
+        <li class="nav-list-item">
+            <i class="fa-sharp fa-solid fa-user-graduate"></i>
+            <span>
+                <a href="#">Students</a>
+            </span>
+        </li>
+        <li class="nav-list-item">
+            <i class="fa-solid fa-chalkboard-user"></i>
+            <span>
+                <a href="#">Teachers</a>
+            </span>
+        </li>
+        <li class="nav-list-item">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button  class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    
+                            <i class="fa-solid fa-building"></i>
+                      Department
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <a [routerLink]="['/dept-list']" >Department-List</a><br>
+                        <a [routerLink]="['/dept-edit']">Department-Edit</a><br>
+                        <a [routerLink]="['/dept-add']">Department-Add</a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </li>
+        <li class="nav-list-item">
+            <i class="fa-solid fa-book-open-reader"></i>
+            <span>
+                <a href="#">Subjects</a>
+            </span>
+        </li> -->
+
+
+
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <i class="fa-sharp fa-solid fa-user-graduate"></i>
+                        Dashboard
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <a href="#">Admin Dashbooard</a><br>
+                        <a href="#">Teacher Dashboard</a><br>      
+                        <a href="#">Student Dashboard</a>
+                        <a href="#">Local Dashboard</a>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        <i class="fa-sharp fa-solid fa-user-graduate"></i>
+                        Students
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <a [routerLink]="['/student-list']">Student List </a><br>
+                        <a [routerLink]="['/student-view']">Student View</a><br>
+                        <a [routerLink]="['/student-add']">Student Add</a><br>
+                        <a [routerLink]="['/student-edit']">Student Edit</a>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        <i class="fa-solid fa-chalkboard-user"></i>
+                    Teachers
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <a [routerLink]="['/teacher-list']">Teacher List</a><br>
+                        <a [routerLink]="['/teacher-view']">Teacher View</a><br>
+                        <a [routerLink]="['/teacher-add']">Teacher Add</a><br>
+                        <a [routerLink]="['/teacher-edit']">Teacher Edit</a>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+                        <i class="fa-solid fa-building"></i>
+                        Departments
+                    </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <a [routerLink]="['/dept-list']">Department List</a><br>
+                        <a [routerLink]="['/dept-edit']">Department Edit</a><br>
+                        <a [routerLink]="['/dept-add']">Department Add</a>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                        <i class="fa-solid fa-book-open-reader"></i>
+                        Subjects
+                    </button>
+                </h2>
+                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <a href="#">Subject List</a><br>
+                        <a href="#">Subject Add </a><br>
+                        <a href="#">Subject Edit</a>
+                    </div>
+                </div>
+            </div><hr>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseFive">
+                        
+                        <i class="fa-sharp fa-solid fa-file-invoice-dollar"></i>
+                        Accounts
+                    </button>
+                </h2>
+                <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <a [routerLink]="['/fees-collection']">Fees Collection</a><br>
+                        <a [routerLink]="['/expenses']">Expenses </a><br>
+                        <a [routerLink]="['/salary']">Salary</a><br>
+                        <a [routerLink]="['/add-fees']">Add Fees</a><br>
+                        <a [routerLink]="['/add-expenses']">Add Expenses</a><br>
+                        <a [routerLink]="['/add-salary']">Add Salary</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ul>
+</div>
