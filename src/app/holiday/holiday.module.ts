@@ -6,6 +6,8 @@ import { AddHolidayComponent } from './add-holiday/add-holiday.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
+import { MaterialModule } from '../material/material.module';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
 @NgModule({
@@ -18,7 +20,9 @@ import { RouterModule } from '@angular/router';
   imports: [
     CommonModule,
     HolidayRoutingModule,
-    RouterModule
+    RouterModule,
+    MaterialModule,
+    FontAwesomeModule
   ]
 })
 export class HolidayModule { }

@@ -14,13 +14,16 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { Router, RouterModule } from '@angular/router';
 import { TeacherModule } from './teacher/teacher.module';
 import { StudentModule } from './student/student.module';
+import { HolidayModule } from './holiday/holiday.module';
+import { FeesComponent } from './fees/fees.component';
 // import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [
     AppComponent,
     SideNavComponent,
-    HeaderComponent
+    HeaderComponent,
+    FeesComponent
   ],
   imports: [
     BrowserModule,
