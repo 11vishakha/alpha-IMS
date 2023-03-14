@@ -1,0 +1,41 @@
+.page-title{
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+}
+.page-header .breadcrumb{
+    font-size: 15px;
+}
+.breadcrumb-item{
+    display: flex;
+}
+table.table td h2.table-avatar {
+    align-items: center;
+    display: inline-flex;
+    font-size: inherit;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+table.table td h2 a {
+    color: #333;
+}
+.card-table .table td, .card-table .table th {
+    border-top: 1px solid #e2e5e8;
+    padding: 1rem 0.75rem;
+    white-space: nowrap;
+}
+
+.pen{
+    background-color: green;
+}
+.bg-success-light{
+    background-color: green;
+    margin: 3px;
+}
+.bg-danger-light{
+    background-color: orange;
+}
