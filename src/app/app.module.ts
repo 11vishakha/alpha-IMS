@@ -14,7 +14,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { Router, RouterModule } from '@angular/router';
 import { TeacherModule } from './teacher/teacher.module';
 import { StudentModule } from './student/student.module';
-import { HolidayModule } from './holiday/holiday.module';
+// import { HolidayModule } from './holiday/holiday.module';
 import { FeesComponent } from './fees/fees.component';
 import { HolidayComponent } from './holiday/holiday.component';
 // import { MatIconModule } from '@angular/material/icon';
@@ -24,7 +24,9 @@ import { HolidayComponent } from './holiday/holiday.component';
     AppComponent,
     SideNavComponent,
     HeaderComponent,
-    FeesComponent
+    FeesComponent,
+    HolidayComponent
+    
   ],
   imports: [
     BrowserModule,
@@ -38,7 +40,7 @@ import { HolidayComponent } from './holiday/holiday.component';
     RouterModule,
     FormsModule,
     DepartmentModule,
-    HolidayModule
+    
   
   ],
   providers: [],

@@ -13,7 +13,11 @@ import { HolidayComponent } from './holiday/holiday.component';
 const routes: Routes = [{ path: 'department', loadChildren: () => import('./department/department.module').then(m => m.DepartmentModule) }, 
                         { path: 'accounts', loadChildren: () => import('./accounts/accounts.module').then(m => m.AccountsModule) },
                         { path: 'teacher', loadChildren: () => import('./teacher/teacher.module').then(m => m.TeacherModule) },
-                        { path: 'holiday', loadChildren: () => import('./holiday/holiday.module').then(m => m.HolidayModule) },
+                        {path:'holiday',component:HolidayComponent},
+                        {path:'add-holiday',component:AddHolidayComponent},
+                        {path:'fees',component:FeesComponent},
+                        {path:'add-fees',component:AddFeesComponent},
+                        {path:'edit-fees',component:EditFeesComponent},
                         { path: 'authentication', loadChildren: () => import('./authentication/authentication.module').then(m => m.AuthenticationModule) }
                       ];
 
