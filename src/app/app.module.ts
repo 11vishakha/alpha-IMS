@@ -3,53 +3,46 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-<<<<<<< HEAD
-import { StudentRoutingModule } from './student/student-routing.module';
-import { TeacherRoutingModule } from './teacher/teacher-routing.module';
-import { HolidayRoutingModule } from './holiday/holiday-routing.module';
+import { DepartmentModule } from './department/department.module';
+import { SideNavComponent } from './side-nav/side-nav.component';
+import { HeaderComponent } from './header/header.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { EventRoutingModule } from './event/event-routing.module';
-import { ExamsRoutingModule } from './exams/exams-routing.module';
-=======
+
+import { HolidayComponent } from './holiday/holiday.component';
+import { AccountsModule } from './accounts/accounts.module';
 import { TeacherModule } from './teacher/teacher.module';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { HolidayModule } from './holiday/holiday.module';
+import { AuthenticationModule } from './authentication/authentication.module';
+import { EventModule } from './event/event.module';
+import { ExamsModule } from './exams/exams.module';
+import { StudentModule } from './student/student.module';
 
 
->>>>>>> 3416b333ce2962bbc4739a9845026117d7d0031c
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
-<<<<<<< HEAD
-    
-=======
     HolidayComponent,
-    AddHolidayComponent,
-    FeesComponent,
-    AddFeesComponent,
-    EditFeesComponent,
+    HeaderComponent,
+    SideNavComponent
   
->>>>>>> 3416b333ce2962bbc4739a9845026117d7d0031c
   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-<<<<<<< HEAD
-    StudentRoutingModule,
-    TeacherRoutingModule,
-    HolidayRoutingModule,
-    FontAwesomeModule,
-    EventRoutingModule,
-    ExamsRoutingModule,
-=======
     TeacherModule,
     FontAwesomeModule,
-    HolidayModule
+    AccountsModule,
+    DepartmentModule,
+    AuthenticationModule,
+    EventModule,
+    ExamsModule,
+    StudentModule
+
   
->>>>>>> 3416b333ce2962bbc4739a9845026117d7d0031c
+  
   ],
   providers: [],
   bootstrap: [AppComponent]

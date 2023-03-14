@@ -10,6 +10,8 @@ import { TeacherEditComponent } from './teacher-edit/teacher-edit.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HomeComponent } from './home/home.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { RouterModule } from '@angular/router';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -25,7 +27,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   imports: [
     CommonModule,
     TeacherRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    RouterModule,
+    ReactiveFormsModule
   ]
 })
 export class TeacherModule { }

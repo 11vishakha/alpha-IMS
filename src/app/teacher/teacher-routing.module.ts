@@ -8,12 +8,13 @@ import { TeacherListComponent } from './teacher-list/teacher-list.component';
 import { TeacherViewComponent } from './teacher-view/teacher-view.component';
 import { TeacherComponent } from './teacher.component';
 
-const routes: Routes = [{ path: 'teacher', component:TeacherComponent,
+const routes: Routes = [{ path: '',
  children:[{path:'teacher-list',component:TeacherListComponent},                         
 {path:'teacher-add',component:TeacherAddComponent},
 {path:'teacher-view',component:TeacherViewComponent},
 {path:'teacher-edit',component:TeacherEditComponent},
-{path:"**",component:PageNotFoundComponent}]},
+// {path:"**",component:PageNotFoundComponent}
+]},
 ];
 
 @NgModule({
