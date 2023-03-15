@@ -8,12 +8,16 @@ import { SubjectsRoutingModule } from './subjects/subjects-routing.module';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { TableComponent } from './table/table.component';
 import { LibraryComponent } from './library/library.component';
+import { HolidayComponent } from './holiday/holiday.component';
+import { FeesComponent } from './fees/fees.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TableComponent,
     LibraryComponent,
+    HolidayComponent,
+    FeesComponent
   ],
   imports: [
     BrowserModule,
