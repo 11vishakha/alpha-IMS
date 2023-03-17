@@ -1,4 +1,4 @@
-app-header{
+/* app-header{
     position: fixed;
     width: 100%;
     top: 0px;
@@ -17,18 +17,18 @@ app-side-nav{
     width:60px;
     height: calc(100vh - 4rem);
     /* background-color: rgb(241, 249, 249); */
-    background-color:white;
+    /* background-color:white; */
     /* border-top: 1px solid white; */
-    overflow-x: hidden;
-    white-space: nowrap;
-    transition: width 250ms ease-in;
-    margin: 0;
-    padding: 0;
-}
-.app-side-nav-open{
-    width: 250px;
-}
-.display-area{
+    /* overflow-x: hidden; */
+    /* white-space: nowrap; */
+    /* transition: width 250ms ease-in; */
+    /* margin: 0; */
+    /* padding: 0; */
+/* } */
+/* .app-side-nav-open{ */
+    /* width: 250px; */
+/* } */
+/* .display-area{
     position: absolute;
     left: 60px;
     width: calc(100% - 250px);
@@ -37,4 +37,4 @@ app-side-nav{
 .display-area-shrink{
     width: calc(100% - 250px);
     left: 250px;
-}
+} */ 
