@@ -15,6 +15,7 @@ import { AuthenticationModule } from './authentication/authentication.module';
 import { EventModule } from './event/event.module';
 import { ExamsModule } from './exams/exams.module';
 import { StudentModule } from './student/student.module';
+import { FeesComponent } from './fees/fees.component';
 
 
 
@@ -25,7 +26,8 @@ import { StudentModule } from './student/student.module';
     AppComponent,
     HolidayComponent,
     HeaderComponent,
-    SideNavComponent
+    SideNavComponent,
+    FeesComponent
   
   
   ],
