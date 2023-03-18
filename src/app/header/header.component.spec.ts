@@ -21,3 +21,14 @@ describe('HeaderComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+
+// describe('test',()=>{
+//   it('add',()=>{
+//     let num1=20;
+//     let num2=30;
+//     let sum=num1+num2;
+//     let expect=90;
+
+    
+//   })
+// })

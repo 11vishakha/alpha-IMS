@@ -1,36 +1,65 @@
-<div class="container-fluid">
-    <header>
-        <h1>Departments</h1>
-        <h2>Departments / <small>Add</small> </h2>
-    </header>
-    <section>
-        <div class="row">
-            <h3>Department Details</h3>
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="" class="form-label">Department ID</label>
-                    <input type="text" class="form-control">
-                </div>
-                <div class="form-group">
-                    <label for="" class="form-label">Head Of Department</label>
-                    <input type="text" class="form-control">
-                </div>
-                <div class="form-group">
-                    <label for="" class="form-label">No Of Students</label>
-                    <input type="text" class="form-control">
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="form-group">
-                    <label for="" class="form-label">Department Name</label>
-                    <input type="text" class="form-control">
-                </div>
-                <div class="form-group">
-                    <label for="" class="form-label">Department Start Date</label>
-                    <input type="date" class="form-control">
+<div class="page-wrapper">
+    <div class="content container-fluid">
+
+        <div class="page-header">
+            <div class="row align-items-center">
+                <div class="col">
+                    <h3 class="page-title">Add Department</h3>
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="department">Department</a></li>
+                        <li class="breadcrumb-item active">Add Department</li>
+                    </ul>
                 </div>
             </div>
         </div>
-        <button mat-flat-button color="primary"  class="m-2"> Submit</button>
-    </section>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <form>
+                            <div class="row">
+                                <div class="col-12">
+                                    <h5 class="form-title"><span>Department Details</span></h5>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-group">
+                                        <label>Department ID</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-group">
+                                        <label>Department Name</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-group">
+                                        <label>Head of Department</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-group">
+                                        <label>Department Start Date</label>
+                                        <input type="date" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-group">
+                                        <label>No of Students</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

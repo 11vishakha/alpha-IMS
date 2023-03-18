@@ -1,54 +1,5 @@
-<div class="side-nav-content">
+<!-- <div class="side-nav-content">
     <ul class="nav-list" [ngClass]="{'nav-list-open':sideNavStatus}">
-
-        <!-- 
-        <li class="nav-list-item">
-            <i class="fa-sharp fa-solid fa-user-graduate"></i>
-            <span>
-                <a href="#">Dashboard</a>
-            </span>
-        </li>
-        <li class="nav-list-item">
-            <i class="fa-sharp fa-solid fa-user-graduate"></i>
-            <span>
-                <a href="#">Students</a>
-            </span>
-        </li>
-        <li class="nav-list-item">
-            <i class="fa-solid fa-chalkboard-user"></i>
-            <span>
-                <a href="#">Teachers</a>
-            </span>
-        </li>
-        <li class="nav-list-item">
-            <div class="accordion accordion-flush" id="accordionFlushExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingOne">
-                        <button  class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                    
-                            <i class="fa-solid fa-building"></i>
-                      Department
-                    </button>
-                  </h2>
-                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">
-                        <a [routerLink]="['/dept-list']" >Department-List</a><br>
-                        <a [routerLink]="['/dept-edit']">Department-Edit</a><br>
-                        <a [routerLink]="['/dept-add']">Department-Add</a>
-                    </div>
-                  </div>
-                </div>
-            </div>
-        </li>
-        <li class="nav-list-item">
-            <i class="fa-solid fa-book-open-reader"></i>
-            <span>
-                <a href="#">Subjects</a>
-            </span>
-        </li> -->
-
-
-
         <div class="accordion accordion-flush" id="accordionFlushExample">
             <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingOne">
@@ -164,8 +115,8 @@
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
                         
-                        <!-- <i class="fa-sharp fa-solid fa-file-invoice-dollar"></i> -->
-                        <i class="fa-solid fa-shield-halved"></i>
+                        <i class="fa-sharp fa-solid fa-file-invoice-dollar"></i> -->
+                        <!-- <i class="fa-solid fa-shield-halved"></i>
                         Authentication
                     </button>
                 </h2>
@@ -181,4 +132,457 @@
             </div>
         </div>
     </ul>
-</div>
+</div>  -->
+
+<!-- <div class="sidebar" id="sidebar">
+    <div class="sidebar-inner slimscroll">
+        <div id="sidebar-menu" class="sidebar-menu">
+            <ul>
+                <li class="menu-title">
+                    <span>Main Menu</span>
+                </li>
+                <li class="submenu">
+                    <a href="#"> <fa-icon class="usergraduate" [icon]="usergraduate"></fa-icon> <span> Dashboard</span>
+                        <span class="menu-arrow"></span></a>
+                    <ul>
+                        <li><a href="admin-dashboard">Admin Dashboard</a></li>
+                        <li><a href="teacher-dashboard">Teacher Dashboard</a></li>
+                        <li><a href="student-dashboard">Student Dashboard</a></li>
+                    </ul>
+                </li>
+                <li class="submenu">
+                    <a href="#"><fa-icon class="usergraduate" [icon]="usergraduate"></fa-icon><span> Students</span>
+                        <span class="menu-arrow"></span></a>
+                    <ul>
+                        <li><a href="student-list">Student List</a></li>
+                        <li><a href="student-view">Student View</a></li>
+                        <li><a href="student-add">Student Add</a></li>
+                        <li><a href="student-edit">Student Edit</a></li>
+                    </ul>
+                </li>
+                <li class="submenu">
+                    <a href="#"><fa-icon class="fachalk" [icon]="fachalk"></fa-icon> <span> Teachers</span> <span
+                            class="menu-arrow"></span></a>
+                    <ul>
+                        <li><a href="teachers-list">Teacher List</a></li>
+                        <li><a href="teacher-view">Teacher View</a></li>
+                        <li><a href="teacher-add">Teacher Add</a></li>
+                        <li><a href="teacher-edit">Teacher Edit</a></li>
+                    </ul>
+                </li>
+                <li class="submenu">
+                    <a href="#"><fa-icon class="fabuilding" [icon]="fabuilding"></fa-icon><span> Departments</span>
+                        <span class="menu-arrow"></span></a>
+                    <ul>
+                        <li><a href="dept-list">Department List</a></li>
+                        <li><a href="dept-add">Department Add</a></li>
+                        <li><a href="dept-edit">Department Edit</a></li>
+                    </ul>
+                </li>
+                <li class="submenu">
+                    <a href="#"><fa-icon class="fabookreader" [icon]="fabookreader"></fa-icon><span> Subjects</span>
+                        <span class="menu-arrow"></span></a>
+                    <ul>
+                        <li><a href="#">Subject List</a></li>
+                        <li><a href="#">Subject Add</a></li>
+                        <li><a href="#">Subject Edit</a></li>
+                    </ul>
+                </li>
+                <li class="menu-title">
+                    <span>Management</span>
+                </li><fa-icon class="fafile" [icon]="fafile"></fa-icon>
+                <li class="submenu">
+                    <a href="#"> <span> Accounts</span> <span class="menu-arrow"></span></a>
+                    <ul>
+                        <li><a href="fees-collection">Fees Collection</a></li>
+                        <li><a href="expenses">Expenses</a></li>
+                        <li><a href="salary">Salary</a></li>
+                        <li><a href="add-fees">Add Fees</a></li>
+                        <li><a href="add-expenses">Add Expenses</a></li>
+                        <li><a href="add-salary">Add Salary</a></li>
+                    </ul>
+                </li>
+                <li class="menu-title">
+                    <span>Pages</span>
+                </li>
+                <li class="submenu">
+                    <a href="#"><fa-icon class="fashield" [icon]="fashield"></fa-icon><span> Authentication </span>
+                        <span class="menu-arrow"></span></a>
+                    <ul>
+                        <li><a href="login">Login</a></li>
+                        <li><a href="register">Register</a></li>
+                        <li><a href="forgot-password">Forgot Password</a></li>
+                        <li><a href="error-404">Error Page</a></li>
+                    </ul> -->
+<!-- </li>
+                <li> -->
+
+<!-- 
+<div class="sidebar">
+    <ul class="nav-list" [ngClass]="{'nav-list-open':sideNavStatus}">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <li class="menu-title">
+                <span>Main Menu</span>
+            </li>
+            <div class="accordion-item">
+            </div>
+                <li>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                <i class="fa-sharp fa-solid fa-user-graduate"></i>
+                                Dashboard
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <a href="#">Admin Dashboard</a><br>
+                                <a href="#">Teacher Dashboard</a><br>      
+                                <a href="#">Student Dashboard</a>
+              
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                <i class="fa-sharp fa-solid fa-user-graduate"></i>
+                                Students
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <a [routerLink]="['/student-list']">Student List </a><br>
+                                <a [routerLink]="['/student-view']">Student View</a><br>
+                                <a [routerLink]="['/student-add']">Student Add</a><br>
+                                <a [routerLink]="['/student-edit']">Student Edit</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                <i class="fa-solid fa-chalkboard-user"></i>
+                            Teachers
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <a [routerLink]="['/teacher-list']">Teacher List</a><br>
+                                <a [routerLink]="['/teacher-view']">Teacher View</a><br>
+                                <a [routerLink]="['/teacher-add']">Teacher Add</a><br>
+                                <a [routerLink]="['/teacher-edit']">Teacher Edit</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+                                <i class="fa-solid fa-building"></i>
+                                Departments
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <a [routerLink]="['/dept-list']">Department List</a><br>
+                                <a [routerLink]="['/dept-edit']">Department Edit</a><br>
+                                <a [routerLink]="['/dept-add']">Department Add</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                <i class="fa-solid fa-book-open-reader"></i>
+                                Subjects
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <a href="#">Subject List</a><br>
+                                <a href="#">Subject Add </a><br>
+                                <a href="#">Subject Edit</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <hr>
+                
+                <li class="menu-title">
+                    <span>Management</span>
+                </li>
+
+                <li>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseFive">
+                                
+                                <i class="fa-sharp fa-solid fa-file-invoice-dollar"></i>
+                                Accounts
+                            </button>
+                        </h2>
+                        <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <a [routerLink]="['/fees-collection']">Fees Collection</a><br>
+                                <a [routerLink]="['/expenses']">Expenses </a><br>
+                                <a [routerLink]="['/salary']">Salary</a><br>
+                                <a [routerLink]="['/add-fees']">Add Fees</a><br>
+                                <a [routerLink]="['/add-expenses']">Add Expenses</a><br>
+                                <a [routerLink]="['/add-salary']">Add Salary</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <hr>
+                <li class="menu-title">
+                    <span>Pages</span>
+                </li>
+                <li>
+                    <a href="authentication"><fa-icon class="fashield" [icon]="fashield"></fa-icon><span> Authentication
+                        </span>
+                    </a>
+                </li>
+            
+        </div>
+
+    </ul>
+
+
+</div> -->
+
+
+    <div class="side-nav-content" [ngClass]="{'nav-list-open':sideNavStatus}">
+        <li class="menu-title">
+            <span>Main Menu</span>
+        </li>
+
+        <ul class="nav-list">
+
+            <div class="accordion" id="accordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <li class="nav-list-item">
+                                <i class="fa-solid fa-user-graduate"></i>
+                                <span>
+                                    <a>Dashboard</a>
+                                </span>
+                            </li>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordion">
+                        <div class="accordion-body">
+                            <div class="items">
+                                <ul>
+                                    <li><a routerLink="admin-dashboard">Admin Dashboard</a></li>
+                                    <li><a routerLink="teacher-dashboard">Teacher Dashboard</a></li>
+                                    <li><a routerLink="student-dashboard">Student Dashboard</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <li class="nav-list-item">
+                                <i class="fa-solid fa-user-graduate"></i>
+                                <span>
+                                    <a>Student</a>
+                                </span>
+                            </li>
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordion">
+                        <div class="accordion-body">
+
+                            <div class="items">
+                                <ul>
+                                    <li><a href="student-list">Student List</a></li>
+                                    <li><a href="student-view">Student view</a></li>
+                                    <li><a href="student-add">Student Add</a></li>
+                                    <li><a href="student-edit">Student Edit</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <li class="nav-list-item">
+                                <i class="fa-solid fa-chalkboard-user"></i>
+                                <span>
+                                    <a>Teachers</a>
+                                </span>
+                            </li>
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordion">
+                        <div class="accordion-body">
+
+                            <div class="items">
+                                <ul>
+                                    <li><a href="teacher-list">Teacher List</a></li>
+                                    <li><a href="teacher-view">Teacher view</a></li>
+                                    <li><a href="teacher-add">Teacher Add</a></li>
+                                    <li><a href="teacher-edit">Teacher Edit</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <li class="nav-list-item">
+                                <i class="fa-solid fa-building"></i>
+                                <span>
+                                    <a>Departments</a>
+                                </span>
+                            </li>
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                        <div class="accordion-body">
+
+                            <div class="items">
+                                <ul>
+                                    <li><a href="dept-list">Department List</a></li>
+                                    <li><a href="dept-add">Department Add</a></li>
+                                    <li><a href="dept-edit">Department Edit</a></li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            <li class="nav-list-item">
+                                <i class="fa-sharp fa-solid fa-book-open-reader"></i>
+                                <span>
+                                    <a>Subjects</a>
+                                </span>
+                            </li>
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                        <div class="accordion-body">
+                            <div class="items">
+                                <ul>
+                                    <li><a href="subjectList">Subject List</a></li>
+                                    <li><a href="subjectAdd">Subject Add</a></li>
+                                    <li><a href="SubjectEdit">Subject Edite</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <li class="menu-title">
+                    <span>Management</span>
+                </li>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingsix">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                            <li class="nav-list-item">
+                           
+                            <i class="fa-solid fa-file-invoice-dollar"></i>
+                            <span>
+                                <a> Accounts</a>
+                            </span>
+                           
+                        </button> 
+                    </h2>
+                    <div id="collapsesix" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                        <div class="accordion-body">
+                            <div class="items">
+                                <ul>
+                                    <li><a href="fees-collection">Fees Collection</a></li>
+                                    <li><a href="expenses">Expenses</a></li>
+                                    <li><a href="salary">Salary</a></li>
+                                    <li><a href="add-fees">Add Fees</a></li>
+                                    <li><a href="add-expenses">Add Expenses</a></li>
+                                    <li><a href="add-salary">Add Salary</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <li class="menu-title">
+                    <span>Pages</span>
+                </li>
+        
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingseven">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
+                            <li class="nav-list-item">
+                                <i class="fa-solid fa-table"></i>
+                                <span>
+                                    <a> Authentication</a>
+                                </span>
+                            </li>
+                        </button>
+                    </h2>
+                    <div id="collapseseven" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                        <div class="accordion-body">
+                            <div class="items">
+                                <ul>
+                                    <li><a href="login">Login</a></li>
+                                    <li><a href="register">Register</a></li>
+                                    <li><a href="forgot-password">Forgot Password</a></li>
+                                    <li><a href="error-404">Error Page</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </ul>
+    </div>
