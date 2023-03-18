@@ -3,19 +3,24 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
+import { DashboardModule } from './dashboard/dashboard.module';
+import { SubjectsRoutingModule } from './subjects/subjects-routing.module';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { MaterialModule } from './material/material.module';
 import { SideNavComponent } from './side-nav/side-nav.component';
 import { HeaderComponent } from './header/header.component';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+// import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import { StudentModule } from './student/student.module';
 
 import { TeacherModule } from './teacher/teacher.module';
 import { DepartmentModule } from './department/department.module';
-import { MaterialModule } from './material/material.module';
+// import { MaterialModule } from './material/material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AccountsModule } from './accounts/accounts.module';
-import { DepartmentComponent } from './department/department.component';
+// import { DepartmentComponent } from './department/department.component';
+import { SubjectsModule } from './subjects/subjects.module';
+import { AuthenticationModule } from './authentication/authentication.module';
 
 
 
@@ -24,23 +29,24 @@ import { DepartmentComponent } from './department/department.component';
 @NgModule({
   declarations: [
     AppComponent,
-    DepartmentComponent,
     SideNavComponent,
     HeaderComponent
-    
-  
-  
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    DashboardModule,
+    SubjectsRoutingModule,
     FontAwesomeModule,
-    StudentModule,
-    TeacherModule,
-    DepartmentModule,
+    MaterialModule,
     AccountsModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    TeacherModule,
+    StudentModule,
+    SubjectsModule,
+    DepartmentModule,
+    AuthenticationModule
     
   
   ],
