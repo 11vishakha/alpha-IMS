@@ -10,6 +10,8 @@ import { StudentViewComponent } from './student-view/student-view.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { StudentEditComponent } from './student-edit/student-edit.component';
+import { FormControl, ReactiveFormsModule } from '@angular/forms';
+import { MaterialModule } from '../material/material.module';
 
 
 @NgModule({
@@ -24,7 +26,10 @@ import { StudentEditComponent } from './student-edit/student-edit.component';
   imports: [
     CommonModule,
     StudentRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    ReactiveFormsModule
+    
+    
   ]
 })
 export class StudentModule { }

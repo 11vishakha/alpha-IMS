@@ -21,6 +21,8 @@ import { AccountsModule } from './accounts/accounts.module';
 // import { DepartmentComponent } from './department/department.component';
 import { SubjectsModule } from './subjects/subjects.module';
 import { AuthenticationModule } from './authentication/authentication.module';
+import {HttpClientModule} from '@angular/common/http'
+import { FormControl, ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -46,7 +48,9 @@ import { AuthenticationModule } from './authentication/authentication.module';
     StudentModule,
     SubjectsModule,
     DepartmentModule,
-    AuthenticationModule
+    AuthenticationModule,
+    HttpClientModule,
+    
     
   
   ],

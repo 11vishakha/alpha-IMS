@@ -396,9 +396,9 @@
                         <div class="accordion-body">
                             <div class="items">
                                 <ul>
-                                    <li><a routerLink="admin-dashboard">Admin Dashboard</a></li>
-                                    <li><a routerLink="teacher-dashboard">Teacher Dashboard</a></li>
-                                    <li><a routerLink="student-dashboard">Student Dashboard</a></li>
+                                    <li><a [routerLink]="['/admin-dashboard']">Admin Dashboard</a></li>
+                                    <li><a [routerLink]="['/teacher-dashboard']">Teacher Dashboard</a></li>
+                                    <li><a [routerLink]="['/student-dashboard']">Student Dashboard</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -542,12 +542,12 @@
                         <div class="accordion-body">
                             <div class="items">
                                 <ul>
-                                    <li><a href="fees-collection">Fees Collection</a></li>
-                                    <li><a href="expenses">Expenses</a></li>
-                                    <li><a href="salary">Salary</a></li>
-                                    <li><a href="add-fees">Add Fees</a></li>
-                                    <li><a href="add-expenses">Add Expenses</a></li>
-                                    <li><a href="add-salary">Add Salary</a></li>
+                                    <li><a  [routerLink]="['/fees-collection']">Fees Collection</a></li>
+                                    <li><a [routerLink]="['/expenses']">Expenses</a></li>
+                                    <li><a [routerLink]="['/salary']">Salary</a></li>
+                                    <li><a [routerLink]="['/add-fees']">Add Fees</a></li>
+                                    <li><a [routerLink]="['/add-expenses']">Add Expenses</a></li>
+                                    <li><a [routerLink]="['/add-salary']">Add Salary</a></li>
                                 </ul>
                             </div>
 
@@ -575,10 +575,10 @@
                         <div class="accordion-body">
                             <div class="items">
                                 <ul>
-                                    <li><a href="login">Login</a></li>
-                                    <li><a href="register">Register</a></li>
-                                    <li><a href="forgot-password">Forgot Password</a></li>
-                                    <li><a href="error-404">Error Page</a></li>
+                                    <li><a [routerLink]="['/auth-login']">Login</a></li>
+                                    <li><a [routerLink]="['/auth-register']">Register</a></li>
+                                    <li><a [routerLink]="['/auth-forgetpass']">Forgot Password</a></li>
+                                    <li><a [routerLink]="['/auth-errorpage']">Error Page</a></li>
                                 </ul>
                             </div>
                         </div>

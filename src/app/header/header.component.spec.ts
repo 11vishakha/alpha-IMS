@@ -22,13 +22,13 @@ describe('HeaderComponent', () => {
   });
 });
 
-// describe('test',()=>{
-//   it('add',()=>{
-//     let num1=20;
-//     let num2=30;
-//     let sum=num1+num2;
-//     let expect=90;
 
-    
+//  fdescribe('Calculator',()=>{
+//   it('Addition',()=>{
+//     let a=10;
+//     let b=50;
+//     let actual=a+b;
+//     let expected=90;
+//     expect(actual).toBe(expected)
 //   })
-// })
+//  })

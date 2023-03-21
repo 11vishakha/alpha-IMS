@@ -28,6 +28,7 @@ section{
     flex-grow: 3;
     background-color:whitesmoke;
     height: 95vh;
+    width: 80vw;
     border: 1px solid azure;
     /* background-color: whitesmoke; */
     box-shadow: 0px 5px 7px rgb(110, 111, 111);
