@@ -21,3 +21,14 @@ describe('HeaderComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+
+
+//  fdescribe('Calculator',()=>{
+//   it('Addition',()=>{
+//     let a=10;
+//     let b=50;
+//     let actual=a+b;
+//     let expected=90;
+//     expect(actual).toBe(expected)
+//   })
+//  })

@@ -9,11 +9,24 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { MaterialModule } from './material/material.module';
 import { SideNavComponent } from './side-nav/side-nav.component';
 import { HeaderComponent } from './header/header.component';
-import { AccountsModule } from './accounts/accounts.module';
-import { TeacherModule } from './teacher/teacher.module';
+// import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
 import { StudentModule } from './student/student.module';
+
+import { TeacherModule } from './teacher/teacher.module';
+import { DepartmentModule } from './department/department.module';
+// import { MaterialModule } from './material/material.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AccountsModule } from './accounts/accounts.module';
+// import { DepartmentComponent } from './department/department.component';
 import { SubjectsModule } from './subjects/subjects.module';
-import { DepartmentRoutingModule } from './department/department-routing.module';
+import { AuthenticationModule } from './authentication/authentication.module';
+import {HttpClientModule} from '@angular/common/http'
+import { FormControl, ReactiveFormsModule } from '@angular/forms';
+
+
+
+
 
 @NgModule({
   declarations: [
@@ -29,11 +42,18 @@ import { DepartmentRoutingModule } from './department/department-routing.module'
     FontAwesomeModule,
     MaterialModule,
     AccountsModule,
-    DepartmentRoutingModule,
+    BrowserAnimationsModule,
+    MaterialModule,
     TeacherModule,
     StudentModule,
-    SubjectsModule
-    ],
+    SubjectsModule,
+    DepartmentModule,
+    AuthenticationModule,
+    HttpClientModule,
+    
+    
+  
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
